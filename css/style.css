@@ -1,1 +1,103 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+header
+{
+   background: url(../img/banner1.jpg) no-repeat center center / cover;
+   width: 100%;
+	display: block;
+	position: relative;
+	z-index: 1;
+}
+
+.intro
+{
+	
+	display: flex;
+	padding: 1% 2%;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+nav ul li{
+    padding: 10px;
+}
+.logo
+{
+	flex: 1;
+}
+.info
+{
+	padding: 3% 20%;
+}
+.info h1
+{
+	font-size: 55px;
+}
+span
+{
+	color: #fff;
+	font-size: 75px;
+}
+.info p{
+	max-width: 50%;
+	letter-spacing: .5px;
+	line-height: 35px;
+	color: #fff;f
+	font-weight: 500;
+	font-size: 20px;
+	padding-top: 2%;
+}
+.btn
+{
+	padding: 3% 20%;
+	padding-bottom: 1%;
+}
+.btn button
+{
+	padding: 20px;
+	width: 200px;
+	margin-right: 20px;
+	background-color: #000;
+	color: #fff;
+	font-weight: 500;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.btn button:hover
+{
+	background-color: #fff;
+	color: #000;
+	border: none;
+	outline: none;
+}
+.icn
+{
+	padding-left: 8%;
+	padding-bottom: 7%;
+
+}
+.icn i{
+	width: 55px;
+    height: 55px;
+    border: #fff solid 2px;
+    opacity: 1;
+    font-size: 25px;
+    color: #fff;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 22px;
+}
+.icn i:hover
+{
+	color: #fff;
+	background-color: #000;
+}
 
